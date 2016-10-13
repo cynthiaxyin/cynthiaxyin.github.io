@@ -1,12 +1,13 @@
 div {
-	padding: 5px;
+	padding-bottom: 1px;
 }
 
 h1 {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 	letter-spacing: 10px;
-	font-size: 48px;
+	font-size: 40px;
+	margin-bottom: 0;
 }
 
 h2 {
@@ -48,7 +49,7 @@ i {
 
 table {
 	margin: 0px auto;
-	border-spacing: 25px 0px;
+	border-spacing: 15px 0px;
 	border-collapse: separate;
 }
 
@@ -72,9 +73,9 @@ img {
 	width: 40%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 750px) {
     /* For mobile phones: */
-    image {
+    img {
     	width: 80%;
     }
 }

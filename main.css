@@ -8,31 +8,32 @@ div {
 
 h1 {
 	text-align: center;
-	font-family: 'Exo', sans-serif;
-	letter-spacing: 15px;
-	font-size: 60px;
+	font-family: 'Quicksand', sans-serif;
+	letter-spacing: 10px;
+	font-size: 48px;
 }
 
 h2 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 5px;
-	font-size: 40px;
+	font-size: 24px;
 	padding-top: 5px;
 	padding-bottom: 5px;
+	color: #67AFB8;
+	font-weight: 900;
 }
 
 h3 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 h4 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	font-size: 16px;
-	/* margin-left: 50px; */
+	font-size: 14px;
 }
 
 a {
@@ -51,7 +52,7 @@ i {
 
 table {
 	margin: 0px auto;
-	border-spacing: 50px 0px;
+	border-spacing: 25px 0px;
 	border-collapse: separate;
 }
 

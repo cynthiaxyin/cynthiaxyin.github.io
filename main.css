@@ -5,7 +5,7 @@ div {
 h1 {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
-	letter-spacing: 10px;
+	letter-spacing: 6px;
 	font-size: 40px;
 	margin-bottom: 0;
 }
@@ -13,10 +13,8 @@ h1 {
 h2 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	letter-spacing: 5px;
+	letter-spacing: 4px;
 	font-size: 24px;
-	padding-top: 5px;
-	padding-bottom: 5px;
 	color: #67AFB8;
 	font-weight: 900;
 }
@@ -51,6 +49,11 @@ table {
 	margin: 0px auto;
 	border-spacing: 15px 0px;
 	border-collapse: separate;
+}
+
+
+#bio {
+	letter-spacing: 2px;
 }
 
 .italics {

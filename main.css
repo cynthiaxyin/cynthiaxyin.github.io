@@ -56,6 +56,12 @@ table {
 	letter-spacing: 2px;
 }
 
+#copyright {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 12px;
+	color: #737373;
+}
+
 .italics {
 	font-style: italic;
 	color: #595959;

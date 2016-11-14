@@ -12,11 +12,16 @@ h1 {
 
 h2 {
 	text-align: center;
+}
+
+h2 span {
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 4px;
-	font-size: 24px;
-	color: #67AFB8;
+	font-size: 20px;
+	color: #FFFFFF;
+	background-color: #b1dbe0;
 	font-weight: 900;
+	padding: 3px;
 }
 
 h3 {
@@ -38,7 +43,7 @@ a {
 }
 
 a:hover {
-	background-color: #b1dbe0;
+	background-color: #dbf8fc;
 }
 
 i {
@@ -74,7 +79,7 @@ table {
 }
 
 a.link:hover {
-	color: #67AFB8;
+	color: #6fbac4;
 	background-color: transparent;
 }
 

@@ -28,12 +28,14 @@ h3 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 16px;
+	letter-spacing: 1px;
 }
 
 h4 {
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 14px;
+	letter-spacing: 1px;
 }
 
 a {
@@ -59,6 +61,7 @@ table {
 
 #bio {
 	letter-spacing: 2px;
+	color: #595959;
 }
 
 #copyright {

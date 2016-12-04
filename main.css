@@ -16,7 +16,7 @@ h2 {
 
 h2 span {
 	font-family: 'Quicksand', sans-serif;
-	letter-spacing: 4px;
+	letter-spacing: 1px;
 	font-size: 20px;
 	color: #FFFFFF;
 	background-color: #a4d5da;
@@ -98,10 +98,6 @@ img {
 
 @media only screen and (max-width: 750px) {
     /* For mobile phones: */
-    img {
-    	width: 80%;
-    }
-
     #body {
     	width: 90%;
     }

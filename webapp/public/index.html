@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+  <title>Stanford Who (to See)</title>
+  <meta charset="utf-8">
+  <meta name="description" content="">
+  <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+  <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css" />
+  <link rel="stylesheet" href="../dist/styles/sir-accordion.css"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body ng-app="sirAccordion" ng-controller="Principal">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        <h1>Stanford Who (to See)</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12" style="padding-top: 15px;">
+        <p>Discover which groups and individuals are key resources for pressing campus issues.</p>
+        <p>Navigate by issue to retrieve relevant committees, offices, and student groups.</p>
+      </div>
+
+    </div>
+    <div class="content-wrap">
+      <div class="row full-height">
+        <div id="scroller" class="col-xs-24 col-sm-12 full-height scrollable">  <!-- before 12, 6 -->
+            <div id="SAC1" sir-accordion collection="accordionArray" config="accordionConfig"></div>
+        </div>
+       <!--  <div class="hidden-xs col-sm-6">
+          <blockquote>
+            <p>
+              hey
+            </p>
+          </blockquote>
+        </div> -->
+      </div>
+    </div>
+  </div>
+  <script src="../bower_components/fastclick/lib/fastclick.js"></script>
+  <script src="../bower_components/angular/angular.js"></script>
+  <script src="../bower_components/velocity/velocity.min.js"></script>
+  <script src="../dist/scripts/sir-accordion.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

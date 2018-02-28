@@ -16,7 +16,7 @@ body, html{
 
 .content-wrap{
   position: absolute;
-  top: 213px;
+  top: 160px;/*213px;*/
   left: 15px;
   right: 15px;
   bottom: 10px;

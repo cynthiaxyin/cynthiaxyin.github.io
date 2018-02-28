@@ -1,7 +1,7 @@
 <!doctype html>
 <html>
 <head>
-  <title>sirAccordion</title>
+  <title>Stanford Who (to See)</title>
   <meta charset="utf-8">
   <meta name="description" content="">
   <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
@@ -13,56 +13,28 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <h1>Sir Accordion</h1>
+        <h1>Stanford Who (to See)</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-xs-12">
-        <p>To expand a content given a coord e.g: 1-1, put the coord in the input and click the expand buttom</p>
-        <div class="row">
-          <div class="form-group col-xs-5 col-sm-3">
-            <form ng-submit="expandByCoord()">
-              <div class="input-group">
-                <input type="text" class="form-control" ng-model="coord" placeholder="Coordinate">
-                <input type="submit" style="display:none">
-                <div class="input-group-addon clickable" ng-click="expandByCoord()">
-                  <span class="glyphicon glyphicon-collapse-down"></span>
-                </div>
-              </div>
-            </form>
-          </div>
-          <div class="col-xs-7 col-sm-4 no-padding-left">
-            <button ng-click="expandAll()" class="btn btn-primary" ng-class="{'disabled': accordionConfig.autoCollapse}">Expand all</button>
-            <button ng-click="collapseAll()" class="btn btn-primary">Collapse all</button>
-          </div>
-          <div class="col-xs-12 col-sm-5">
-            <button ng-click="toggleAutoCollapse()" class="btn btn-primary" ng-cloak>toggle autoCollapse: {{accordionConfig.autoCollapse}}</button>
-          </div>
-        </div>
-        <br>
+      <div class="col-xs-12" style="padding-top: 15px;">
+        <p>Discover which groups and individuals are key resources for pressing campus issues.</p>
+        <p>Navigate by issue to retrieve relevant committees, offices, and student groups.</p>
       </div>
+
     </div>
     <div class="content-wrap">
       <div class="row full-height">
-        <div id="scroller" class="col-xs-12 col-sm-6 full-height scrollable">
+        <div id="scroller" class="col-xs-24 col-sm-12 full-height scrollable">  <!-- before 12, 6 -->
             <div id="SAC1" sir-accordion collection="accordionArray" config="accordionConfig"></div>
         </div>
-        <div class="hidden-xs col-sm-6">
+       <!--  <div class="hidden-xs col-sm-6">
           <blockquote>
             <p>
-              Awesome dynamic, recursive, customizable and multilevel <strong>Accordion Menu</strong> for <strong>AngurlarJS</strong>, that builds up from a JSON object and an optional configuration object. <strong>You can download the project for a live demo in the example folder (don't forget to bower install dependencies)</strong> and for better understanding.
-            </p>
-            <p>
-              <strong>No jQuery needed</strong>
-            </p>
-            <p>
-              You could set <strong>before/after</strong> <strong>topContent/bottomContent</strong> in the accordion config object to set a scroll back to top buttom (or whatever you like), given that you only need to set the value once and it will be in all the contents of the accordion.
-            </p>
-            <p>
-              Go to the <a href="https://github.com/SirIdeas/sirAccordion">Project page</a> for a how to use
+              hey
             </p>
           </blockquote>
-        </div>
+        </div> -->
       </div>
     </div>
   </div>
